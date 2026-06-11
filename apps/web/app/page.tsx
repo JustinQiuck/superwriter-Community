@@ -413,13 +413,6 @@ function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
         <p>© 2026 SuperWriter. All rights reserved.</p>
         <a
-          href="https://beian.miit.gov.cn"
-          target="_blank"
-          rel="noreferrer"
-          className="transition-colors hover:text-foreground"
-        >
-          滇ICP备2026001874号-1
-        </a>
       </div>
     </footer>
   );

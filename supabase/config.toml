@@ -17,10 +17,10 @@ port = 54324
 file_size_limit = "50MB"
 
 [auth]
-site_url = "https://project-97v3g.vercel.app"
+site_url = "http://localhost:3000"
 additional_redirect_urls = [
   "http://localhost:3000/auth/callback",
-  "https://project-97v3g.vercel.app/auth/callback",
+  "http://localhost:3000/auth/callback",
 ]
 jwt_expiry = 3600
 enable_signup = true
