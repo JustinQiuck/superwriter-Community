@@ -1,0 +1,53 @@
+name: 功能建议
+description: 为个人非商业使用场景提交改进建议。
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SuperWriter 为个人非商业使用提供源码。商业使用需提前获得书面许可。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+      description: 这个功能能解决什么写作、规划、编辑或部署上的痛点？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 描述你期望的功能行为或界面。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 已尝试的替代方案
+      description: 你试过或考虑过哪些替代方案？
+  - type: dropdown
+    id: area
+    attributes:
+      label: 功能领域
+      options:
+        - 编辑器
+        - AI 生成
+        - 故事规划
+        - 角色与世界观
+        - 导入导出
+        - 管理后台/模型配置
+        - 数据库/Supabase
+        - 文档
+        - 其他
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索过已有 issue。
+          required: true
+        - label: 此请求不涉及商业授权申请。
+          required: true

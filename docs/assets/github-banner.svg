@@ -1,0 +1,25 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SuperWriter GitHub banner</title>
+  <desc id="desc">A calm writing workspace banner for SuperWriter.</desc>
+  <rect width="1280" height="420" rx="0" fill="#F7F4EE"/>
+  <rect x="72" y="64" width="1136" height="292" rx="28" fill="#FBFAF7" stroke="#D8D0C4" stroke-width="2"/>
+  <rect x="112" y="104" width="270" height="212" rx="18" fill="#EFE8DD" stroke="#D6CBBD"/>
+  <rect x="146" y="134" width="162" height="12" rx="6" fill="#86786A"/>
+  <rect x="146" y="166" width="198" height="10" rx="5" fill="#B8AA9A"/>
+  <rect x="146" y="190" width="150" height="10" rx="5" fill="#C8BCAD"/>
+  <rect x="146" y="238" width="96" height="28" rx="14" fill="#2C5F5D"/>
+  <rect x="254" y="238" width="70" height="28" rx="14" fill="#DFD6C8"/>
+  <rect x="432" y="104" width="350" height="212" rx="18" fill="#FFFFFF" stroke="#D6CBBD"/>
+  <rect x="466" y="136" width="214" height="12" rx="6" fill="#2E2D2A"/>
+  <rect x="466" y="170" width="272" height="9" rx="4.5" fill="#AFA396"/>
+  <rect x="466" y="196" width="238" height="9" rx="4.5" fill="#BFB3A6"/>
+  <rect x="466" y="222" width="286" height="9" rx="4.5" fill="#CBBFAF"/>
+  <rect x="466" y="260" width="178" height="11" rx="5.5" fill="#7B4D3F"/>
+  <rect x="826" y="104" width="270" height="212" rx="18" fill="#173B3A"/>
+  <path d="M875 165H1047" stroke="#D7E7DF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M875 204H1018" stroke="#A7CCC1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M875 239H1062" stroke="#75AFA4" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1043" cy="272" r="17" fill="#E9C46A"/>
+  <text x="112" y="380" fill="#2E2D2A" font-family="ui-serif, Georgia, serif" font-size="34" font-weight="700">SuperWriter</text>
+  <text x="348" y="380" fill="#5F5650" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">AI-native novel writing workspace</text>
+</svg>

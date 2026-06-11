@@ -1,0 +1,32 @@
+# Dependencies and package-manager caches
+node_modules
+**/node_modules
+
+# Local build and task caches
+.next
+**/.next
+.turbo
+**/.turbo
+dist
+build
+out
+*.tsbuildinfo
+
+# Local secrets and tool state
+.env
+.env.*
+!.env.example
+.vercel
+.supabase
+supabase/.branches
+supabase/.temp
+
+# Local-only artifacts
+.DS_Store
+.logs
+.worktrees
+.claude
+.context
+.gitnexus
+.superpowers
+SuperWriter.app

@@ -1,0 +1,48 @@
+name: 部署求助
+description: 本地部署或配置遇到问题？来这里求助。
+title: "[Setup]: "
+labels: ["setup"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        发布前请移除敏感信息。不要粘贴 `.env.local`、API 密钥、Cookie、私有 URL 或 Supabase service role key。
+  - type: textarea
+    id: goal
+    attributes:
+      label: 你想做什么？
+      description: 描述你在哪个本地部署步骤上卡住了。
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: 执行的命令
+      description: 粘贴你运行过的具体命令。
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: 错误输出
+      description: 粘贴已脱敏的输出。
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      placeholder: "macOS 15, Node 20.x, pnpm 10.x, Supabase CLI x.x, Docker/OrbStack"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 README.md 和 .env.example。
+          required: true
+        - label: 我已移除所有密钥和私人数据。
+          required: true

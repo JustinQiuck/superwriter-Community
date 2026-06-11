@@ -1,0 +1,31 @@
+[api]
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public"]
+max_rows = 1000
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
+
+[inbucket]
+port = 54324
+
+[storage]
+file_size_limit = "50MB"
+
+[auth]
+site_url = "https://project-97v3g.vercel.app"
+additional_redirect_urls = [
+  "http://localhost:3000/auth/callback",
+  "https://project-97v3g.vercel.app/auth/callback",
+]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = false

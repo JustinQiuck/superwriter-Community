@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 社区讨论
+    url: https://github.com/JustinQiuck/superwriter-Community/discussions
+    about: 部署求助、使用心得、写作交流——去讨论区聊。
+  - name: Security vulnerability
+    url: https://github.com/JustinQiuck/superwriter-Community/security/advisories/new
+    about: 请勿公开报告安全漏洞。如已启用私密漏洞报告请使用该功能，或私下联系维护者。
+  - name: 商业授权
+    url: https://github.com/JustinQiuck/superwriter-Community/blob/main/COMMERCIAL-LICENSE.md
+    about: 商业使用需提前获得维护者书面许可。请勿公开发布私人商业信息。
