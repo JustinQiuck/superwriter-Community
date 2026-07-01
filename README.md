@@ -124,13 +124,6 @@ SuperWriter 正在寻找真正的长篇小说创作者。欢迎加入社区：
 | 渠道 | 适合 | 入口 |
 |------|------|------|
 | 💬 **GitHub Discussions** | 部署求助、Bug 报告、功能建议 | [前往讨论区](https://github.com/JustinQiuck/superwriter-Community/discussions) |
-| 💚 **企业微信群** | 写作交流、AI prompt 分享、产品反馈 | 扫码加入 ↓ |
-
-<p align="center">
-  <img src="./docs/assets/wecom-qr.png" width="200" alt="SuperWriter 企业微信群" />
-</p>
-
-> ⚠️ 微信群二维码定期更新，请以 superwriter.cc 上的最新二维码为准。
 
 ## 技术栈
 
